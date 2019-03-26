@@ -1,0 +1,161 @@
+/* ***************************
+	SMACSS
+	Order: base, layout, module, state;
+   *************************** */
+
+
+
+/* ***************************
+   Base section
+   *************************** */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1{
+  border-bottom: 3px solid black
+}
+
+footer a{
+    padding: 8px;
+    background-color: bisque;
+}
+
+form{
+  margin-top: 80px;
+  font-size: x-large;
+}
+
+
+
+/* ***************************
+   Layout section
+   *************************** */
+
+.container1, .container2, .container3{
+  margin: 0 auto;
+  width: 90%;
+  line-height: 1.5em;
+}
+
+.container1, .container2{
+  max-width: 1000px;
+}
+
+.container3{
+  max-width: 750px;
+}
+
+.container1{
+  display: grid;
+  grid-template-rows: 78px 568px 89px;
+}
+
+.persistent, footer, .updates, .signup{
+  display: flex;
+  justify-content: space-between;
+}
+
+.persistent, .updates, .signup{
+  margin-top: 17px;
+}
+
+.div1, .div2, .div3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.div1, .div3{
+  margin-top: 30px;
+}
+
+.div1 .content1, .div2 .content2, .div3 .content3, .div1 .link1, .div2 .link2, .div3 .link3{
+  width: 300px
+}
+
+figure{
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 57px;
+}
+
+
+.div1 ul, .div2 ul, .div3 ul{
+  padding-left: 18px;
+  padding-top: 24px;
+}
+
+.figure1, .figure2, .figure3{
+  margin-left: 10px
+}
+
+.link1, .link2, .link3{
+  margin-right: 10px;
+}
+
+
+
+
+/* ***************************
+   Module section
+   *************************** */
+
+.container1 .primary, .container2 header, .container2 h2, .container3 header{
+  font-family: 'Domine', serif;
+}
+
+.primary{
+  font-size: xx-large;
+}
+
+.primary a, .updates a, .signup a{
+  text-decoration: none;
+}
+
+.div1{
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.divcomb{
+  margin-top: 150px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.menu{
+  margin-top: 20px;
+}
+
+.menu ul{
+  display:flex;
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+.menu li{
+  border:2px solid black; 
+}
+
+
+.menu a{
+  display: block;
+  color:black;
+  text-decoration:none;
+  padding:2px;
+}
+
+
+/* ***************************
+   State section
+   *************************** */
+
+.menu .is-current{
+  background-color: silver;
+  color:white;
+}
+
