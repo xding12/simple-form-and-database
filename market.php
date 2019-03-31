@@ -1,5 +1,5 @@
 <?php $title = 'Midterm Project - Market Updates'; ?>
-<?php include "inc/top.inc"; ?>	
+<?php include "inc/top.php"; ?>	
 
 
 <body class="container2">
