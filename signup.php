@@ -17,20 +17,14 @@
 	</p>
 
 	<form method="post" action="javascript:alert('Thanks for signing up!');">
-		<div>
 			<label for="first">First Name: </label>
 			<input type="text" name="first" id="first">
-		</div>
 
-		<div>
 			<label for="last">Last Name: </label>
 			<input type="text" name="last" id="last">
-		</div>
 
-		<div>
 			<label for="email">E-mail: </label>
 			<input type="email" name="email" id="email">
-		</div>
 
 		<input type="submit" value="Submit">
 		</form>
