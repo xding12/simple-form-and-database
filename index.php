@@ -14,9 +14,16 @@
 
 	
 	<footer>
-		
+		<div class="weak">
+			<blockquote>
+			    Alas,
+			    <br>investors are not paid in probabilities;
+			    <br>they are paid in dollars.
+			</blockquote>
+			<!-- I know an angel cries everytime <br> is used, but it's OK to use it for poems! -->
 
-		<div class="weak">The financial market is a market <br> where trading of securities including <br> equities, bonds, currencies and derivatives occur</div>
+			<cite>– Nassim Taleb, Fooled by Randomness</cite>
+		</div>
 		<div class="terminal"><a href="signup.php">Sign-up for a newsletter</a></div>
 	</footer>
 
