@@ -162,13 +162,3 @@ blockquote {
   padding:2px;
 }
 
-
-/* ***************************
-   State section
-   *************************** */
-
-.menu .is-current{
-  background-color: silver;
-  color:white;
-}
-

@@ -1,11 +1,11 @@
-<?php $title = 'Financial Market'; ?>
+<?php $title = 'Financial Markets | Home'; ?>
 <?php include "inc/top.php"; ?>	
 
 <body class="container1">
 
 	<header class="persistent">
-		<div class="primary"><a href="index.php">Financial Market</a></div>
-		<div><a href="market.php">Click to know updates about market</a></div>
+		<div class="primary"><a href="index.php">Financial Markets</a></div>
+		<div><a href="market.php">Learn about this week's market updates</a></div>
   	</header>
 
 	<main>
@@ -24,7 +24,7 @@
 
 			<cite>– Nassim Taleb, Fooled by Randomness</cite>
 		</div>
-		<div class="terminal"><a href="signup.php">Sign-up for a newsletter</a></div>
+		<div class="terminal"><a href="signup.php"><strong>Get the newsletter</strong> for weekly market updates via email!</a></div>
 	</footer>
 
 <?php include "inc/bottom.inc"; ?>	
