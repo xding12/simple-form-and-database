@@ -1,11 +1,11 @@
-<?php $title = 'Midterm Project - Market Updates'; ?>
+<?php $title = 'Market Updates'; ?>
 <?php include "inc/top.php"; ?>	
 
 
 <body class="container2">
 <header class="updates">
-	<h1><a href="index.php">Weekly Market Updates</a></h1>
-	<?php include "inc/nav.inc"; ?>
+	<h1><a href="index.php">Financial Markets</a></h1>
+	<?php include "inc/nav.php"; ?>
 </header>
 
 
@@ -89,4 +89,4 @@
 </div>
 
 
-<?php include "inc/bottom.inc"; ?>	
+<?php include "inc/bottom.php"; ?>	

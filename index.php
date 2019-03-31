@@ -9,7 +9,7 @@
   	</header>
 
 	<main>
-		<img src="images/financial.jpg" alt="Financial market">
+		<img src="images/financial.jpg" alt="Financial market graphic">
 	</main>
 
 	

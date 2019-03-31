@@ -103,7 +103,7 @@ blockquote {
 }
 
 #only {
-  display: flex;
+  
   justify-content: flex-end;
   flex-direction: column;
   flex-basis: 20px;
@@ -160,5 +160,15 @@ blockquote {
   color:black;
   text-decoration:none;
   padding:2px;
+}
+
+
+/* ***************************
+   State section
+   *************************** */
+
+.menu .is-current{
+  background-color: silver;
+  color:white;
 }
 
