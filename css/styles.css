@@ -96,6 +96,20 @@ figure{
   margin-right: 10px;
 }
 
+blockquote {
+  padding-left: 30px;
+  border-left: 3px solid orange;
+  margin-left: 0;
+}
+
+#only {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-basis: 20px;
+  flex: 1;
+}
+
 
 
 /* ***************************

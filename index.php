@@ -14,7 +14,7 @@
 
 	
 	<footer>
-		<div class="weak">
+		<div class="weak" id="only">
 			<blockquote>
 			    Alas,
 			    <br>investors are not paid in probabilities;
