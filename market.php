@@ -1,7 +1,6 @@
 <?php $title = 'Financial Markets | Updates'; ?>
 <?php include "inc/top.php"; ?>	
 
-
 <body class="container2">
 
 	<header class="updates">
@@ -85,6 +84,5 @@
 			</div>
 		</div>
 	</main>
-
-
+	
 <?php include "inc/bottom.php"; ?>	
