@@ -103,14 +103,17 @@ blockquote {
 }
 
 #only {
-  
+  display: flex;
   justify-content: flex-end;
   flex-direction: column;
   flex-basis: 20px;
   flex: 1;
 }
 
-
+.origin {
+  font-size: 12px;
+  margin-top: 30px;
+}
 
 /* ***************************
    Module section
@@ -168,7 +171,7 @@ blockquote {
    *************************** */
 
 .menu .is-current{
-  background-color: silver;
+  background-color: black;
   color:white;
 }
 

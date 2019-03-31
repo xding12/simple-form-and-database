@@ -1,4 +1,4 @@
-<?php $title = 'Market Updates'; ?>
+<?php $title = 'Financial Markets | Updates'; ?>
 <?php include "inc/top.php"; ?>	
 
 

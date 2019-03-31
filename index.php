@@ -26,5 +26,5 @@
 		</div>
 		<div class="terminal"><a href="signup.php"><strong>Get the newsletter</strong> for weekly market updates via email!</a></div>
 	</footer>
-
-<?php include "inc/bottom.inc"; ?>	
+</body>
+</html>	
