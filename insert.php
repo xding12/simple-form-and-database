@@ -28,7 +28,7 @@
 
 <p><?php
 	if ($result) {
-		echo "Your information has been received!";
+		echo "Your information has been received!  We'll be sending you new market information this next Sunday.  We send newsletters every Sunday at 8pm.  You'll be the sharpest in financial econ and market updates pretty soon.";
 ?>
 <?php
 	} else {
@@ -37,9 +37,9 @@
 ?></p>
 	</main>
 
-<div>
+<aside>
 	<a href="index.php">Go back to the main page</a>
-</div>
+</aside>
 
 </body>
 </html>
