@@ -4,7 +4,7 @@
 <body class="container1">
 	<header class="persistent">
 		<div class="primary"><a href="index.php">Financial Markets</a></div>
-		<div><a href="market.php">Learn about this week's market updates</a></div>
+		<div class="terminal"><a href="market.php">Learn about this week's market updates</a></div>
   	</header>
 	<main>
 		<img src="images/financial.jpg" alt="Financial market graphic">

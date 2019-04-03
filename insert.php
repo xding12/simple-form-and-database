@@ -21,10 +21,11 @@
 <?php $title = 'Financial Markets | Thank You'; ?>
 <?php include "inc/top.php"; ?> 
 
-<body>
+<body class="container4">
 
 	<h1>Thank you for signing up!</h1>
 
+<div class="feedback">
 <?php
 	if ($result) {
 		echo "Your information has been received!";
@@ -34,10 +35,10 @@
 		die("System failed.");
 	}
 ?>
+</div>
 
-
-<div>
-	<a href="index.php">Go back to the main page</a>
+<div class="last_part">
+	<a href="index.php"> >> Go back to the main page</a>
 </div>
 
 </body>
