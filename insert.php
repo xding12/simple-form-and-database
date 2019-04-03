@@ -35,11 +35,14 @@
 	}
 ?>
 
+
 <div>
-	<a href="new-read.php">Checkout your handiwork</a>
+	<a href="index.php">Go back to the main page</a>
 </div>
 
-<?php include "inc/bottom-signup.php"; ?>
+</body>
+</html>
+
 
 <?php
 	// 4. Step 4 is unnecessary here because we didn't 

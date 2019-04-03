@@ -16,7 +16,7 @@
 		We'll bring you the <em>best</em> market updates available on the web <em>for free</em>.  Whether you're new to the field of financial markets or a seasoned professional who wants a quick digest of what's going on, you'll find something for everyone in this newsletter.  You'll get a newsletter every Monday morning at 7am & no other email from us, guaranteed.  What do you have to lose?  <strong>Sign up now!</strong>
 	</p>
 
-	<form method="post" action="new-insert.php">
+	<form method="post" action="insert.php">
 		<div>
 			<label for="first">First Name: </label>
 			<input type="text" name="first" id="first">
@@ -35,10 +35,6 @@
 		<input type="submit" value="Submit">
 	
 	</form>
-
-	<div>
-		<a href="index.php">Or go back to the main page</a>
-	</div>
 
 </main>
 
