@@ -23,9 +23,10 @@
 
 <body>
 
+	<main>
 	<h1>Thank you for signing up!</h1>
 
-<?php
+<p><?php
 	if ($result) {
 		echo "Your information has been received!";
 ?>
@@ -33,8 +34,8 @@
 	} else {
 		die("System failed.");
 	}
-?>
-
+?></p>
+	</main>
 
 <div>
 	<a href="index.php">Go back to the main page</a>

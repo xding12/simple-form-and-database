@@ -19,17 +19,17 @@
 	<form method="post" action="insert.php">
 		<div>
 			<label for="first">First Name: </label>
-			<input type="text" name="first" id="first">
+			<input type="text" name="first" id="first" required>
 		</div>
 
 		<div>
 			<label for="last">Last Name: </label>
-			<input type="text" name="last" id="last">
+			<input type="text" name="last" id="last" required>
 		</div>
 
 		<div>
 			<label for="email">E-mail: </label>
-			<input type="email" name="email" id="email">
+			<input type="email" name="email" id="email" required>
 		</div>
 
 		<input type="submit" value="Submit">
