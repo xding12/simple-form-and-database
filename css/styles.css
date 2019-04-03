@@ -11,11 +11,12 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
+
 }
 
 
 h1{
-  border-bottom: 3px solid black
+  border-bottom: 3px solid black;
 }
 
 footer a{
@@ -28,13 +29,50 @@ form{
   font-size: x-large;
 }
 
+.menu{
+  margin-top: 20px;
+}
+
+.menu ul{
+  display:flex;
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+.menu li{
+  border:2px solid black; 
+}
+
+.primary, .container2 header, .container2 h2, .container3 header{
+  font-family: 'Domine', serif;
+  
+}
+
+.primary{
+  font-size: 40px;
+}
+
+.primary a, .updates a, .signup a{
+  text-decoration: none;
+  color: black;
+}
 
 
 /* ***************************
    Layout section
    *************************** */
 
-.container1, .container2, .container3{
+.container1{
+  margin: 0 auto;
+  width: 90%;
+  line-height: 1.5em;
+  background-image: url(../images/financial.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container2, .container3{
   margin: 0 auto;
   width: 90%;
   line-height: 1.5em;
@@ -46,12 +84,14 @@ form{
 
 .container3{
   max-width: 750px;
+  background: lightgoldenrodyellow;
 }
 
 .container1{
   display: grid;
   grid-template-rows: 78px 568px 89px;
 }
+
 
 .persistent, footer, .updates, .signup{
   display: flex;
@@ -115,21 +155,47 @@ blockquote {
   margin-top: 30px;
 }
 
+.menu a{
+  display: block;
+  color: black;
+  text-decoration:none;
+  padding:2px;
+}
+
+.terminal a{
+  display: block;
+  color: black;
+  text-decoration:none;
+  background-color: orange;
+  padding:3px;
+}
+
+form {
+  color: white;
+  background-color: #FFA500; 
+  padding: 15px;
+  margin-top: -60px;
+  width: 50%;
+}
+
+form label{
+  display: block;
+  width: 250px;
+
+}
+
+form{
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 100px;
+
+}
+
 /* ***************************
    Module section
    *************************** */
 
-.container1 .primary, .container2 header, .container2 h2, .container3 header{
-  font-family: 'Domine', serif;
-}
 
-.primary{
-  font-size: xx-large;
-}
-
-.primary a, .updates a, .signup a{
-  text-decoration: none;
-}
 
 .div1{
   background-color: antiquewhite;
@@ -137,32 +203,14 @@ blockquote {
 }
 
 .divcomb{
-  margin-top: 150px;
+  margin-top: 50px;
   background-color: aliceblue;
   border-radius: 10px;
 }
 
-.menu{
-  margin-top: 20px;
-}
-
-.menu ul{
-  display:flex;
-  padding:0;
-  margin:0;
-  list-style-type:none;
-}
-
-.menu li{
-  border:2px solid black; 
-}
-
-
-.menu a{
-  display: block;
-  color:black;
+a{
   text-decoration:none;
-  padding:2px;
+  color: #FF8C00;
 }
 
 
@@ -171,7 +219,7 @@ blockquote {
    *************************** */
 
 .menu .is-current{
-  background-color: black;
+  background-color: orange;
   color:white;
 }
 
