@@ -26,10 +26,7 @@
 	<main>
 	<h1>Thank you for signing up!</h1>
 
-
-<div class="feedback">
-<?php
-
+<p><?php
 	if ($result) {
 		echo "Your information has been received!  We'll be sending you new market information this next Sunday.  We send newsletters every Sunday at 8pm.  You'll be the sharpest in financial econ and market updates pretty soon.";
 ?>
@@ -37,17 +34,12 @@
 	} else {
 		die("System failed.");
 	}
-
-?>
-</div>
-
-
+?></p>
 	</main>
 
 <aside class="last_part">
 	<a href="index.php">Go back to the main page</a>
 </aside>
-
 
 </body>
 </html>
