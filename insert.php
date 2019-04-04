@@ -26,6 +26,7 @@
 	<section>
 	<h1>Thank you for signing up!</h1>
 	</section>
+	
 <div class="feedback">
 <p><?php
 	if ($result) {
