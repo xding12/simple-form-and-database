@@ -23,9 +23,9 @@
 
 <body class="container4">
 
-	<section>
+	<div>
 	<h1>Thank you for signing up!</h1>
-	</section>
+	</div>
 	
 <div class="feedback">
 <p><?php
