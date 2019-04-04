@@ -44,7 +44,7 @@ form{
 }
 
 .primary{
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .primary a, .updates a, .signup a{
@@ -75,19 +75,6 @@ form{
   max-width: 750px;
   background: lightgoldenrodyellow;
 }
-
-.container4{
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  text-align: center;
-
-  /*display: grid;
-  grid-template-rows: 60px 60px 60px;
-  grid-template-column: 1px 2px 1px; */
-}
-
 
 .persistent, footer, .updates, .signup{
   display: flex;
@@ -187,12 +174,16 @@ form{
 
 }
 
+.container4{
+  display: grid;
+  grid-template-rows: auto auto 10px;
+  grid-template-columns: 1px 2px 1px;
+}
 
-/*.container4 h1{
-
+.container4 > h1{
   border-bottom: none;
   grid-row: 1;
-  grid-column: 2/3;
+  grid-column: 2/4;
 }
 
 .feedback{
@@ -204,8 +195,11 @@ form{
   grid-row: 3;
   grid-column: 2/3;
 }
-*/
 
+
+main img {
+    width: 100%;
+}
 /* ***************************
    Module section
    *************************** */
