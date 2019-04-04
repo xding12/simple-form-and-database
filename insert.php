@@ -36,7 +36,6 @@
 		die("System failed.");
 	}
 ?></p>
-	</main>
 </div>
 
 <aside class="last_part">
